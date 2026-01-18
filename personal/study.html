@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study - Personal World</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../cv.html">CV</a></li>
+                    <li><a href="../personal.html" class="active">Personal</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="profile-text">
+                    <h1>
+                        <span class="lang-zh">学习之路</span>
+                        <span class="lang-en hidden">Study Journey</span>
+                    </h1>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">English</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="subpage-list">
+
+            <article class="subpage-item card">
+                <div class="item-text">
+                    <h2 class="item-title">
+                        <span class="lang-zh">解剖兔子</span>
+                        <span class="lang-en hidden">Anatomy of a Rabbit</span>
+                    </h2>
+                    <div class="item-description">
+                        <p class="lang-zh">解剖课上的“生物”老师。</p>
+                        <p class="lang-en hidden">The live teacher in the anatomy class.</p>
+                    </div>
+                </div>
+                <div class="item-image">
+                    <img src="../images/study/rabbit.jpg" alt="Study Image">
+                </div>
+            </article>
+
+            <article class="subpage-item card">
+                <div class="item-text">
+                    <h2 class="item-title">
+                        <span class="lang-zh">学术笔记</span>
+                        <span class="lang-en hidden">Academic Notes</span>
+                    </h2>
+                    <div class="item-description">
+                        <p class="lang-zh">关于临床医学的一点思考。</p>
+                        <p class="lang-en hidden">Some thoughts on Clinical Medicine.</p>
+                    </div>
+                </div>
+                <div class="item-image">
+                    <img src="../images/study/review.jpg" alt="Study Image">
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="container" style="text-align: center; margin-top: 2rem; color: var(--light-text);">
+        <p>&copy; 2026 Zhou, Yujie Personal.</p>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
