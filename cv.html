@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Zhou Yujie (Nora)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html" class="active">CV</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="profile-text">
+                    <h1>
+                        <span class="lang-zh">简历</span>
+                        <span class="lang-en hidden">Curriculum Vitae</span>
+                    </h1>
+                    <p class="subtitle">
+                        <span class="lang-zh">周雨洁</span>
+                        <span class="lang-en hidden">Zhou Yujie (Nora)</span>
+                    </p>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">English</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container cv-container">
+
+        <aside class="cv-sidebar card">
+            <div class="photo-placeholder cv-photo">
+                <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+
+            <div class="sidebar-section">
+                <h3 class="lang-zh">联系方式</h3>
+                <h3 class="lang-en hidden">Contact</h3>
+                <ul class="contact-list">
+                    <li><i class="fas fa-envelope"></i> example@email.com</li>
+                    <li><i class="fas fa-phone"></i> +86 1xx xxxx xxxx</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Beijing, China</li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3 class="lang-zh">技能</h3>
+                <h3 class="lang-en hidden">Skills</h3>
+                <ul class="skill-list">
+                    <li>Skill A</li>
+                    <li>Skill B</li>
+                    <li>Skill C</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="cv-content card">
+            <div class="cv-section">
+                <h2 class="section-title">
+                    <span class="lang-zh">教育背景</span>
+                    <span class="lang-en hidden">Education</span>
+                </h2>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <h3 class="lang-zh">首都医科大学</h3>
+                        <h3 class="lang-en hidden">Capital Medical University</h3>
+                        <span class="date">20xx - Present</span>
+                    </div>
+                    <p class="lang-zh">专业名称</p>
+                    <p class="lang-en hidden">Major Name</p>
+                </div>
+            </div>
+
+            <div class="cv-section">
+                <h2 class="section-title">
+                    <span class="lang-zh">研究经历</span>
+                    <span class="lang-en hidden">Research Experience</span>
+                </h2>
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <h3 class="lang-zh">项目名称</h3>
+                        <h3 class="lang-en hidden">Project Title</h3>
+                        <span class="date">20xx - 20xx</span>
+                    </div>
+                    <div class="lang-zh">
+                        <p>项目描述...</p>
+                    </div>
+                    <div class="lang-en hidden">
+                        <p>Project description...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-section">
+                <h2 class="section-title">
+                    <span class="lang-zh">荣誉奖项</span>
+                    <span class="lang-en hidden">Honors & Awards</span>
+                </h2>
+                <ul class="cv-list">
+                    <li>
+                        <span class="lang-zh">奖项名称 1 (20xx)</span>
+                        <span class="lang-en hidden">Award Name 1 (20xx)</span>
+                    </li>
+                    <li>
+                        <span class="lang-zh">奖项名称 2 (20xx)</span>
+                        <span class="lang-en hidden">Award Name 2 (20xx)</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container" style="text-align: center; margin-top: 2rem; color: var(--light-text);">
+        <p>&copy; 2024 Zhou Yujie. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
