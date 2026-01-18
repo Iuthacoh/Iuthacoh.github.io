@@ -363,3 +363,45 @@ footer {
     margin-bottom: 0.5rem;
 }
 
+
+/* Personal World Layout */
+.personal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.personal-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.personal-card:hover {
+    transform: translateY(-5px);
+}
+
+.personal-card .card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.personal-card .photo-placeholder.landscape {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #eee;
+}
+
+.personal-card .photo-placeholder.landscape img {
+    border-radius: 8px;
+}
+

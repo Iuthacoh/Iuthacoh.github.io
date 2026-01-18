@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal World - Zhou Yujie</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="personal.html" class="active">Personal</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="profile-text">
+                    <h1>
+                        <span class="lang-zh">个人天地</span>
+                        <span class="lang-en hidden">Personal World</span>
+                    </h1>
+                    <p class="subtitle">
+                        <span class="lang-zh">工作 · 生活 · 学习 · 乐队</span>
+                        <span class="lang-en hidden">Work · Life · Study · Band</span>
+                    </p>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">English</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="personal-grid">
+            <!-- Work Section -->
+            <section class="personal-card category-work">
+                <div class="card-header">
+                    <i class="fas fa-briefcase"></i>
+                    <h2 class="lang-zh">工作</h2>
+                    <h2 class="lang-en hidden">Work</h2>
+                </div>
+                <div class="card-content">
+                    <div class="photo-placeholder landscape">
+                        <img src="images/work.jpg" alt="Work Photo">
+                    </div>
+                    <p class="lang-zh">这里记录我的工作点滴...</p>
+                    <p class="lang-en hidden">Moments from my work...</p>
+                </div>
+            </section>
+
+            <!-- Life Section -->
+            <section class="personal-card category-life">
+                <div class="card-header">
+                    <i class="fas fa-coffee"></i>
+                    <h2 class="lang-zh">生活</h2>
+                    <h2 class="lang-en hidden">Life</h2>
+                </div>
+                <div class="card-content">
+                    <div class="photo-placeholder landscape">
+                        <img src="images/life.jpg" alt="Life Photo">
+                    </div>
+                    <p class="lang-zh">热爱生活，记录美好瞬间。</p>
+                    <p class="lang-en hidden">Loving life, capturing beautiful moments.</p>
+                </div>
+            </section>
+
+            <!-- Study Section -->
+            <section class="personal-card category-study">
+                <div class="card-header">
+                    <i class="fas fa-book-reader"></i>
+                    <h2 class="lang-zh">学习</h2>
+                    <h2 class="lang-en hidden">Study</h2>
+                </div>
+                <div class="card-content">
+                    <div class="photo-placeholder landscape">
+                        <img src="images/study.jpg" alt="Study Photo">
+                    </div>
+                    <p class="lang-zh">医学之路漫漫...</p>
+                    <p class="lang-en hidden">The long journey of medical studies...</p>
+                </div>
+            </section>
+
+            <!-- Band Section -->
+            <section class="personal-card category-band">
+                <div class="card-header">
+                    <i class="fas fa-guitar"></i>
+                    <h2 class="lang-zh">乐队 - Side Effects</h2>
+                    <h2 class="lang-en hidden">Band - Side Effects</h2>
+                </div>
+                <div class="card-content">
+                    <div class="photo-placeholder landscape">
+                        <img src="images/band.jpg" alt="Band Photo">
+                    </div>
+                    <p class="lang-zh">Side Effects 乐队成员。参与2023年度基础医学院“达人秀”并获奖。</p>
+                    <p class="lang-en hidden">Member of "Side Effects" band. Won awards in the 2023 Talent Show.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="container" style="text-align: center; margin-top: 2rem; color: var(--light-text);">
+        <p>&copy; 2024 Zhou Yujie. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
